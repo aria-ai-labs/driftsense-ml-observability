@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "driftsense"
+version = "0.1.0"
+description = "Model observability toolkit"
+authors = ["Aria AI Labs"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prometheus-client = "*"
+fastapi = "*"
+uvicorn = {extras=["standard"], version="*"}
+numpy = "*"
+requests = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

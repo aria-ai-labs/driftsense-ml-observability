@@ -1,0 +1,4 @@
+apiVersion: v2
+name: driftsense
+version: 0.1.0
+description: DriftSense Helm chart
